@@ -5,8 +5,19 @@ body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin: 0 auto;
 }
-header, nav{
+header{
     color: #FFF;
+}
+nav li{
+    list-style: none;
+    display: inline-block;
+    text-transform: uppercase;
+    background-color: #020873;
+    padding: 20px;
+}
+nav a{
+    color:#FFF;
+    text-decoration: none;
 }
 h1 {
     font-size: 1.25em;
@@ -19,4 +30,6 @@ p, dl, dd {
 }
 footer p{
     font-size: .75em;
+    color: #590242;
+    text-align: center;
 }
