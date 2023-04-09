@@ -72,6 +72,7 @@ nav a{
 }
 h1, h2, h3, nav {
     text-transform: uppercase;
+    padding: 10px 5px;
 }
 h1 {
     font-size: 1.25em;
@@ -86,6 +87,7 @@ h1, h2 {
 }
 h2, h3 {
     font-size: 1em;
+    font-weight: bold
 }
 p, dl, dd {
     font-size: 1em;
@@ -149,6 +151,16 @@ audio {
 }
 #trending ::-webkit-scrollbar-thumb:hover {
     background: #020659;
+}
+.button {
+    background-color:#590242;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 30px;
+    text-align: center;
 }
 footer p{
     font-size: .75em;
