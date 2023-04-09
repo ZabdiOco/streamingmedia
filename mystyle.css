@@ -52,6 +52,7 @@ html{
 }
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #FFF;
     margin: 0 auto;
 }
 header{
@@ -75,6 +76,14 @@ h1, h2, h3, nav {
 h1 {
     font-size: 1.25em;
 }
+h2 {
+    color: #590242;
+    margin:10px 30px;
+    padding-top: 20px;
+}
+h1, h2 {
+    font-weight: bold;
+}
 h2, h3 {
     font-size: 1em;
 }
@@ -82,20 +91,25 @@ p, dl, dd {
     font-size: 1em;
 }
 #trending{
-    background-color: #FFF;
     color: #590242;
 }
-#playlists {
+#playlists div {
     background-color: #2699FB;
 }
-#playlists h3, #playlists p {
+#playlists section {
     background-color: #0D8DFB;
+    color:#FFF;
+    padding: 15px;
+    text-align: center;
 }
-#curated {
+#curated div {
     background-color: #030A8C;
 }
-#curated h3, #curated p {
+#curated section {
     background-color: #020873;
+    color:#FFF;
+    padding: 15px;
+    text-align: center;
 }
 .scroll {
     display: grid;
