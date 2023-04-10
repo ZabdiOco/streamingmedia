@@ -206,7 +206,6 @@ footer p{
 /*Mobile sized screen*/
 @media screen and (min-width:375px) {
     .logo {
-        background-color: green;
         font-size: 2.5em;
         font-weight: bold;
         text-decoration: none;
@@ -279,5 +278,31 @@ footer p{
     }
     label span, input {
         display: none;
+    }
+    #playlists {
+        float:left;
+        width:50%;
+    }
+    #curated {
+        float: right;
+        width:50%;
+    }
+    #playlists .scroll, #curated .scroll {
+        display: grid;
+        grid-template-columns: auto;
+        overflow-y: scroll;
+        height:450px;
+    }
+    #playlists section, #curated section {
+        display:block;
+    }
+    .button {
+        float:right;
+    }
+    .button:hover {
+        background-color: #020659;
+    }
+    footer {
+        clear: both;
     }
 }
