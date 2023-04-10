@@ -77,9 +77,6 @@ h1, h2, h3, nav {
     text-transform: uppercase;
     padding: 10px 5px;
 }
-.first{
-    font-variant: small-caps;
-}
 h1 {
     font-size: 1.25em;
 }
@@ -143,6 +140,9 @@ dl {
 dt {
     padding-right: 5px;
     font-style: italic;
+}
+.first {
+    font-variant: small-caps;
 }
 audio {
     position: absolute;
@@ -269,6 +269,10 @@ footer p{
 
 /*Medium sized screen*/
 @media screen and (min-width:834px) {
+    .logo {
+        display: inline-block;
+        position: absolute;
+    }
     ul {
         overflow: visible;
         position: absolute;
